@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `itens` (id int PRIMARY KEY AUTO_INCREMENT, name varchar(255) NOT NULL, user_id INTEGER NOT NULL, FOREIGN KEY (user_id) REFERENCES users(id));
